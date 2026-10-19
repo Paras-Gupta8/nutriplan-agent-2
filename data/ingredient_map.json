@@ -1,0 +1,1328 @@
+{
+ "version": 1,
+ "notes": "Approximate raw / as-bought quantity per ONE serving of each food. Used only to build the shopping list; cost is split across ingredients by quantity x a price weight for the ingredient group.",
+ "foods": {
+  "Roti (Whole Wheat)": [
+   {
+    "name": "Whole wheat flour (atta)",
+    "qty": 28,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 1.5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Phulka (Chapati)": [
+   {
+    "name": "Whole wheat flour (atta)",
+    "qty": 20,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Brown Rice (Cooked)": [
+   {
+    "name": "Brown rice",
+    "qty": 50,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "White Rice (Cooked)": [
+   {
+    "name": "Rice",
+    "qty": 50,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Jeera Rice": [
+   {
+    "name": "Rice",
+    "qty": 50,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Poha with Peanuts": [
+   {
+    "name": "Poha (flattened rice)",
+    "qty": 55,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Peanuts",
+    "qty": 8,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Upma (Rava)": [
+   {
+    "name": "Semolina (rava)",
+    "qty": 50,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Idli": [
+   {
+    "name": "Idli/dosa batter",
+    "qty": 120,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Plain Dosa": [
+   {
+    "name": "Idli/dosa batter",
+    "qty": 100,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Masala Dosa": [
+   {
+    "name": "Idli/dosa batter",
+    "qty": 100,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Potato",
+    "qty": 80,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Sambar": [
+   {
+    "name": "Toor dal",
+    "qty": 25,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 70,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Mixed Veg Paratha": [
+   {
+    "name": "Whole wheat flour (atta)",
+    "qty": 40,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 20,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Aloo Paratha": [
+   {
+    "name": "Whole wheat flour (atta)",
+    "qty": 45,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Potato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Besan Chilla": [
+   {
+    "name": "Besan (gram flour)",
+    "qty": 50,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Moong Dal Chilla": [
+   {
+    "name": "Moong dal (split)",
+    "qty": 50,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Oats Porridge (Water)": [
+   {
+    "name": "Rolled oats",
+    "qty": 40,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Vegetable Daliya": [
+   {
+    "name": "Broken wheat (daliya)",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Ragi Roti": [
+   {
+    "name": "Ragi flour",
+    "qty": 35,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Ragi Porridge": [
+   {
+    "name": "Ragi flour",
+    "qty": 30,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Bajra Roti": [
+   {
+    "name": "Bajra flour",
+    "qty": 35,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Jowar Roti": [
+   {
+    "name": "Jowar flour",
+    "qty": 35,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Foxtail Millet (Cooked)": [
+   {
+    "name": "Foxtail millet",
+    "qty": 55,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Whole Wheat Bread": [
+   {
+    "name": "Whole wheat bread",
+    "qty": 60,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Veg Sandwich (Whole Wheat)": [
+   {
+    "name": "Whole wheat bread",
+    "qty": 60,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 70,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Curd Rice": [
+   {
+    "name": "Rice",
+    "qty": 35,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Curd",
+    "qty": 100,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Masoor Dal Curry": [
+   {
+    "name": "Masoor dal",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Toor Dal Tadka": [
+   {
+    "name": "Toor dal",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Yellow Moong Dal": [
+   {
+    "name": "Moong dal (split)",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 20,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Chana Dal": [
+   {
+    "name": "Chana dal",
+    "qty": 45,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Rajma Masala": [
+   {
+    "name": "Rajma (dry)",
+    "qty": 45,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 60,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Chole Masala": [
+   {
+    "name": "Chickpeas (dry)",
+    "qty": 45,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 60,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Kala Chana Curry": [
+   {
+    "name": "Kala chana (dry)",
+    "qty": 45,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Lobia Curry": [
+   {
+    "name": "Lobia (dry)",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Sabut Moong Curry": [
+   {
+    "name": "Whole moong",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Dal Makhani (Light)": [
+   {
+    "name": "Black urad dal",
+    "qty": 30,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Rajma (dry)",
+    "qty": 10,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Butter / cream",
+    "qty": 8,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Palak Dal": [
+   {
+    "name": "Toor dal",
+    "qty": 30,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Spinach",
+    "qty": 60,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Sprouts Salad (Moong)": [
+   {
+    "name": "Whole moong",
+    "qty": 35,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 30,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Roasted Chana": [
+   {
+    "name": "Roasted chana",
+    "qty": 30,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   }
+  ],
+  "Soya Chunks Curry": [
+   {
+    "name": "Soya chunks (dry)",
+    "qty": 40,
+    "unit": "g",
+    "group": "Soya & protein foods"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Soya Chunk Pulao": [
+   {
+    "name": "Rice",
+    "qty": 60,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Soya chunks (dry)",
+    "qty": 20,
+    "unit": "g",
+    "group": "Soya & protein foods"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Tofu Bhurji": [
+   {
+    "name": "Tofu",
+    "qty": 100,
+    "unit": "g",
+    "group": "Soya & protein foods"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 30,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Roasted Peanuts": [
+   {
+    "name": "Peanuts",
+    "qty": 30,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Peanut Chikki": [
+   {
+    "name": "Peanut chikki",
+    "qty": 30,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Paneer Bhurji": [
+   {
+    "name": "Paneer",
+    "qty": 80,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Palak Paneer": [
+   {
+    "name": "Paneer",
+    "qty": 60,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   },
+   {
+    "name": "Spinach",
+    "qty": 80,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Matar Paneer": [
+   {
+    "name": "Paneer",
+    "qty": 60,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   },
+   {
+    "name": "Green peas",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Paneer Tikka (Pan-Grilled)": [
+   {
+    "name": "Paneer",
+    "qty": 100,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Paneer Cubes (Raw)": [
+   {
+    "name": "Paneer",
+    "qty": 50,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Plain Curd (Dahi)": [
+   {
+    "name": "Curd",
+    "qty": 100,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Low-Fat Curd": [
+   {
+    "name": "Low-fat curd",
+    "qty": 100,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Buttermilk (Chaas)": [
+   {
+    "name": "Curd",
+    "qty": 40,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Milk (Toned)": [
+   {
+    "name": "Milk",
+    "qty": 200,
+    "unit": "ml",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Cucumber Raita": [
+   {
+    "name": "Curd",
+    "qty": 80,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   },
+   {
+    "name": "Cucumber",
+    "qty": 30,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Soy Yogurt": [
+   {
+    "name": "Soy yogurt",
+    "qty": 100,
+    "unit": "g",
+    "group": "Soya & protein foods"
+   }
+  ],
+  "Soy Milk": [
+   {
+    "name": "Soy milk",
+    "qty": 200,
+    "unit": "ml",
+    "group": "Soya & protein foods"
+   }
+  ],
+  "Masala Chai (with Milk)": [
+   {
+    "name": "Milk",
+    "qty": 100,
+    "unit": "ml",
+    "group": "Dairy & alternatives"
+   },
+   {
+    "name": "Tea leaves & sugar",
+    "qty": 8,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Boiled Eggs": [
+   {
+    "name": "Eggs",
+    "qty": 2,
+    "unit": "eggs",
+    "group": "Eggs, meat & fish"
+   }
+  ],
+  "Egg Bhurji": [
+   {
+    "name": "Eggs",
+    "qty": 2,
+    "unit": "eggs",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Masala Omelette": [
+   {
+    "name": "Eggs",
+    "qty": 2,
+    "unit": "eggs",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 25,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Egg Curry": [
+   {
+    "name": "Eggs",
+    "qty": 2,
+    "unit": "eggs",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 80,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 8,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Egg White Omelette": [
+   {
+    "name": "Eggs",
+    "qty": 4,
+    "unit": "eggs",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 20,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Chicken Curry": [
+   {
+    "name": "Chicken",
+    "qty": 120,
+    "unit": "g",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 8,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Grilled Chicken Breast": [
+   {
+    "name": "Chicken",
+    "qty": 150,
+    "unit": "g",
+    "group": "Eggs, meat & fish"
+   }
+  ],
+  "Chicken Tikka (Pan-Grilled)": [
+   {
+    "name": "Chicken",
+    "qty": 150,
+    "unit": "g",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Curd",
+    "qty": 30,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Fish Curry (Rohu)": [
+   {
+    "name": "Fish",
+    "qty": 130,
+    "unit": "g",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 8,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Grilled Fish": [
+   {
+    "name": "Fish",
+    "qty": 140,
+    "unit": "g",
+    "group": "Eggs, meat & fish"
+   }
+  ],
+  "Prawn Masala": [
+   {
+    "name": "Prawns",
+    "qty": 130,
+    "unit": "g",
+    "group": "Eggs, meat & fish"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Mixed Veg Sabzi": [
+   {
+    "name": "Mixed vegetables",
+    "qty": 130,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Bhindi Masala": [
+   {
+    "name": "Okra (bhindi)",
+    "qty": 130,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 8,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Lauki Sabzi": [
+   {
+    "name": "Bottle gourd (lauki)",
+    "qty": 170,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 4,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Palak Sabzi": [
+   {
+    "name": "Spinach",
+    "qty": 170,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Aloo Gobi": [
+   {
+    "name": "Potato",
+    "qty": 70,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cauliflower",
+    "qty": 90,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 7,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Baingan Bharta": [
+   {
+    "name": "Brinjal",
+    "qty": 170,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Cabbage Poriyal": [
+   {
+    "name": "Cabbage",
+    "qty": 110,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Beans Poriyal": [
+   {
+    "name": "Green beans",
+    "qty": 110,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Tomato Rasam": [
+   {
+    "name": "Tomatoes",
+    "qty": 80,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Toor dal",
+    "qty": 8,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   }
+  ],
+  "Vegetable Khichdi": [
+   {
+    "name": "Rice",
+    "qty": 40,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Moong dal (split)",
+    "qty": 25,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 60,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 5,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Vegetable Pulao": [
+   {
+    "name": "Rice",
+    "qty": 70,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 60,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 8,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Cucumber Tomato Salad": [
+   {
+    "name": "Cucumber",
+    "qty": 60,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Tomatoes",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Kachumber Salad": [
+   {
+    "name": "Cucumber",
+    "qty": 70,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Tomatoes",
+    "qty": 50,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Onion",
+    "qty": 30,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Green Salad with Lemon": [
+   {
+    "name": "Salad vegetables",
+    "qty": 150,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Coconut Chutney": [
+   {
+    "name": "Fresh coconut",
+    "qty": 30,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Banana": [
+   {
+    "name": "Banana",
+    "qty": 100,
+    "unit": "g",
+    "group": "Fruits"
+   }
+  ],
+  "Apple": [
+   {
+    "name": "Apple",
+    "qty": 150,
+    "unit": "g",
+    "group": "Fruits"
+   }
+  ],
+  "Papaya": [
+   {
+    "name": "Papaya",
+    "qty": 150,
+    "unit": "g",
+    "group": "Fruits"
+   }
+  ],
+  "Guava": [
+   {
+    "name": "Guava",
+    "qty": 100,
+    "unit": "g",
+    "group": "Fruits"
+   }
+  ],
+  "Almonds": [
+   {
+    "name": "Almonds",
+    "qty": 20,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Walnuts": [
+   {
+    "name": "Walnuts",
+    "qty": 15,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Pumpkin Seeds": [
+   {
+    "name": "Pumpkin seeds",
+    "qty": 15,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Flax Seeds": [
+   {
+    "name": "Flax seeds",
+    "qty": 10,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Makhana (Roasted)": [
+   {
+    "name": "Makhana",
+    "qty": 25,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Masala Murmura": [
+   {
+    "name": "Puffed rice (murmura)",
+    "qty": 40,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Mixed vegetables",
+    "qty": 20,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Dhokla": [
+   {
+    "name": "Besan (gram flour)",
+    "qty": 45,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   }
+  ],
+  "Clear Vegetable Soup": [
+   {
+    "name": "Mixed vegetables",
+    "qty": 120,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Sweet Corn Chaat": [
+   {
+    "name": "Sweet corn",
+    "qty": 100,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Roasted Soya Nuts": [
+   {
+    "name": "Roasted soya nuts",
+    "qty": 30,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   }
+  ],
+  "Ghee (1 tsp)": [
+   {
+    "name": "Ghee",
+    "qty": 5,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   }
+  ],
+  "Methi Thepla": [
+   {
+    "name": "Whole wheat flour (atta)",
+    "qty": 45,
+    "unit": "g",
+    "group": "Grains, flours & breads"
+   },
+   {
+    "name": "Fenugreek leaves (methi)",
+    "qty": 10,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   },
+   {
+    "name": "Cooking oil",
+    "qty": 6,
+    "unit": "g",
+    "group": "Oils, spices & others"
+   }
+  ],
+  "Sprouted Moong Usal": [
+   {
+    "name": "Whole moong",
+    "qty": 40,
+    "unit": "g",
+    "group": "Pulses & legumes"
+   },
+   {
+    "name": "Onion & tomato",
+    "qty": 40,
+    "unit": "g",
+    "group": "Vegetables & greens"
+   }
+  ],
+  "Curd with Flax & Fruit": [
+   {
+    "name": "Curd",
+    "qty": 110,
+    "unit": "g",
+    "group": "Dairy & alternatives"
+   },
+   {
+    "name": "Flax seeds",
+    "qty": 8,
+    "unit": "g",
+    "group": "Nuts, seeds & dry snacks"
+   },
+   {
+    "name": "Seasonal fruit",
+    "qty": 30,
+    "unit": "g",
+    "group": "Fruits"
+   }
+  ]
+ }
+}

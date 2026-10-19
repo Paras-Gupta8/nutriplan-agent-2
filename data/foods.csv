@@ -1,0 +1,101 @@
+food_id,food_name,category,meal_type,serving_label,serving_grams,calories,protein_g,carbs_g,fat_g,fiber_g,cost_inr,tags,is_veg,allergens,cuisine,prep_time_min
+F001,Roti (Whole Wheat),Grain,Lunch;Dinner,1 roti,40,104,3.1,18,2.5,3.0,3,staple;low-cost;quick-meal,True,gluten,Pan-Indian,5
+F002,Phulka (Chapati),Grain,Lunch;Dinner,1 phulka,30,71,2.4,14,0.4,2.0,2,staple;low-cost;low-fat;quick-meal,True,gluten,North Indian,5
+F003,Brown Rice (Cooked),Grain,Lunch;Dinner,1 katori,150,165,3.8,34,1.3,3.0,7,staple;high-fiber,True,none,Pan-Indian,25
+F004,White Rice (Cooked),Grain,Lunch;Dinner,1 katori,150,195,4.0,43,0.4,0.6,5,staple;low-cost,True,none,Pan-Indian,20
+F005,Jeera Rice,Grain,Lunch;Dinner,1 katori,150,225,4.0,41,4.5,1.0,8,staple,True,none,North Indian,25
+F006,Poha with Peanuts,Breakfast Dish,Breakfast,1 plate,150,250,5.0,42,7.0,3.0,12,quick-meal;jain_unsafe,True,peanut,Pan-Indian,15
+F007,Upma (Rava),Breakfast Dish,Breakfast,1 plate,150,230,6.0,36,7.0,2.5,10,quick-meal,True,gluten,South Indian,15
+F008,Idli,Breakfast Dish,Breakfast,2 idli,100,130,4.0,26,0.5,1.5,10,low-fat;steamed,True,none,South Indian,20
+F009,Plain Dosa,Breakfast Dish,Breakfast,1 dosa,90,150,3.5,25,4.0,1.2,12,low-cost,True,none,South Indian,20
+F010,Masala Dosa,Breakfast Dish,Breakfast,1 dosa,180,290,6.0,45,9.0,3.0,25,jain_unsafe,True,none,South Indian,30
+F011,Sambar,Curry,Breakfast;Lunch;Dinner,1 katori,150,100,5.0,14,2.5,4.0,10,high-fiber;lentil,True,none,South Indian,25
+F012,Mixed Veg Paratha,Breakfast Dish,Breakfast;Dinner,1 paratha,80,200,5.0,28,7.5,3.5,10,high-fiber,True,gluten,North Indian,20
+F013,Aloo Paratha,Breakfast Dish,Breakfast,1 paratha,100,250,5.5,36,9.0,3.0,12,jain_unsafe,True,gluten,North Indian,25
+F014,Besan Chilla,Breakfast Dish,Breakfast;Snack,2 chilla,120,220,11.0,24,8.0,5.0,12,high-protein;quick-meal,True,none,North Indian,15
+F015,Moong Dal Chilla,Breakfast Dish,Breakfast;Snack,2 chilla,120,200,13.0,25,5.0,5.0,14,high-protein,True,none,North Indian,20
+F016,Oats Porridge (Water),Breakfast Dish,Breakfast,1 bowl,200,150,5.0,27,3.0,4.0,9,quick-meal;high-fiber,True,gluten,Pan-Indian,8
+F017,Vegetable Daliya,Breakfast Dish,Breakfast;Lunch,1 bowl,200,210,7.0,38,3.5,6.0,10,high-fiber,True,gluten,North Indian,25
+F018,Ragi Roti,Grain,Lunch;Dinner,1 roti,50,130,3.0,25,1.0,3.0,6,millet;high-fiber,True,none,South Indian,15
+F019,Ragi Porridge,Breakfast Dish,Breakfast,1 bowl,200,160,4.0,32,1.5,3.5,8,millet;quick-meal,True,none,South Indian,10
+F020,Bajra Roti,Grain,Lunch;Dinner,1 roti,50,140,4.0,24,3.0,3.5,6,millet,True,none,North Indian,15
+F021,Jowar Roti,Grain,Lunch;Dinner,1 roti,50,120,3.5,25,1.0,3.0,5,millet,True,none,Pan-Indian,15
+F022,Foxtail Millet (Cooked),Grain,Lunch;Dinner,1 katori,150,180,5.0,34,2.0,4.0,12,millet;high-fiber,True,none,South Indian,25
+F023,Whole Wheat Bread,Grain,Breakfast;Snack,2 slices,60,150,6.0,28,2.0,4.0,6,quick-meal,True,gluten,Pan-Indian,3
+F024,Veg Sandwich (Whole Wheat),Breakfast Dish,Breakfast;Snack,1 sandwich,150,230,8.0,35,6.0,5.0,20,quick-meal,True,gluten,Pan-Indian,10
+F025,Curd Rice,Grain,Lunch;Dinner,1 katori,200,220,6.0,35,5.0,0.8,14,comfort,True,dairy,South Indian,10
+F026,Masoor Dal Curry,Legume,Lunch;Dinner,1 katori,150,180,12.0,25,4.0,6.0,9,high-protein;low-cost,True,none,North Indian,20
+F027,Toor Dal Tadka,Legume,Lunch;Dinner,1 katori,150,170,9.0,24,4.5,5.0,10,low-cost,True,none,North Indian,25
+F028,Yellow Moong Dal,Legume,Lunch;Dinner,1 katori,150,150,10.0,22,2.5,4.0,8,light;quick-meal;low-cost,True,none,Pan-Indian,20
+F029,Chana Dal,Legume,Lunch;Dinner,1 katori,150,200,12.0,28,4.0,7.0,10,high-protein;high-fiber,True,none,North Indian,30
+F030,Rajma Masala,Legume,Lunch;Dinner,1 katori,150,210,11.0,31,4.5,8.0,14,high-protein;high-fiber;jain_unsafe,True,none,North Indian,30
+F031,Chole Masala,Legume,Lunch;Dinner,1 katori,150,230,11.0,32,7.0,9.0,14,high-fiber;jain_unsafe,True,none,North Indian,30
+F032,Kala Chana Curry,Legume,Lunch;Dinner,1 katori,150,200,11.0,29,4.0,9.0,12,high-protein;high-fiber,True,none,North Indian,30
+F033,Lobia Curry,Legume,Lunch;Dinner,1 katori,150,170,10.0,26,3.0,7.0,12,high-fiber,True,none,North Indian,25
+F034,Sabut Moong Curry,Legume,Lunch;Dinner,1 katori,150,160,10.0,24,2.5,7.0,10,high-fiber;low-cost,True,none,Pan-Indian,25
+F035,Dal Makhani (Light),Legume,Lunch;Dinner,1 katori,150,230,10.0,26,9.0,7.0,20,jain_unsafe,True,dairy,North Indian,30
+F036,Palak Dal,Legume,Lunch;Dinner,1 katori,150,150,10.0,20,3.5,6.0,10,high-fiber;low-cost,True,none,North Indian,25
+F037,Sprouts Salad (Moong),Snack Dish,Snack;Breakfast,1 bowl,100,100,8.0,15,0.5,4.0,12,high-protein;raw;quick-meal,True,none,Pan-Indian,5
+F038,Roasted Chana,Snack Dish,Snack,1 handful,30,110,6.0,17,2.0,5.0,6,high-protein;low-cost;quick-meal,True,none,Pan-Indian,1
+F039,Soya Chunks Curry,Legume,Lunch;Dinner,1 katori,150,210,20.0,18,6.0,7.0,14,high-protein;low-cost,True,soy,Pan-Indian,20
+F040,Soya Chunk Pulao,Grain,Lunch;Dinner,1 plate,250,330,16.0,52,7.0,6.0,22,high-protein,True,soy,North Indian,30
+F041,Tofu Bhurji,Protein Dish,Lunch;Dinner;Breakfast,1 katori,100,160,12.0,5,10.0,2.0,28,high-protein;vegan-friendly,True,soy,Pan-Indian,15
+F042,Roasted Peanuts,Nuts & Seeds,Snack,1 handful,30,170,7.5,5,14.0,2.5,7,high-protein;low-cost,True,peanut,Pan-Indian,1
+F043,Peanut Chikki,Snack Dish,Snack,1 piece,30,150,3.5,18,7.5,1.5,6,low-cost,True,peanut,Pan-Indian,1
+F044,Paneer Bhurji,Protein Dish,Breakfast;Lunch;Dinner,1 katori,100,260,16.0,5,20.0,1.0,45,high-protein;quick-meal,True,dairy,North Indian,15
+F045,Palak Paneer,Curry,Lunch;Dinner,1 katori,150,250,13.0,8,18.0,3.0,40,high-protein,True,dairy,North Indian,25
+F046,Matar Paneer,Curry,Lunch;Dinner,1 katori,150,270,14.0,13,18.0,4.0,42,high-protein;jain_unsafe,True,dairy,North Indian,25
+F047,Paneer Tikka (Pan-Grilled),Protein Dish,Dinner;Snack,5 cubes,100,230,16.0,6,16.0,1.5,40,high-protein,True,dairy,North Indian,20
+F048,Paneer Cubes (Raw),Snack Dish,Snack,5 cubes,50,130,8.0,2.5,10.0,0.0,22,high-protein;quick-meal,True,dairy,Pan-Indian,2
+F049,Plain Curd (Dahi),Dairy,Lunch;Dinner;Breakfast,1 katori,100,60,3.5,4.5,3.0,0.0,8,probiotic;quick-meal;low-cost,True,dairy,Pan-Indian,1
+F050,Low-Fat Curd,Dairy,Lunch;Dinner;Breakfast,1 katori,100,45,4.0,4.0,1.0,0.0,9,probiotic;low-fat;quick-meal,True,dairy,Pan-Indian,1
+F051,Buttermilk (Chaas),Dairy,Lunch;Snack,1 glass,250,40,2.0,4.0,1.5,0.0,5,light;low-cost;quick-meal,True,dairy,Pan-Indian,2
+F052,Milk (Toned),Dairy,Breakfast;Snack,1 glass,200,120,6.5,9.5,6.0,0.0,12,quick-meal,True,dairy,Pan-Indian,2
+F053,Cucumber Raita,Dairy,Lunch;Dinner,1 katori,100,70,3.0,6.0,3.5,0.8,10,probiotic;quick-meal,True,dairy,North Indian,5
+F054,Soy Yogurt,Dairy Alternative,Lunch;Dinner;Breakfast,1 katori,100,55,4.0,4.0,2.5,0.5,18,vegan-friendly;quick-meal,True,soy,Pan-Indian,1
+F055,Soy Milk,Dairy Alternative,Breakfast;Snack,1 glass,200,100,7.0,6.0,4.0,1.0,10,vegan-friendly;quick-meal,True,soy,Pan-Indian,2
+F056,Masala Chai (with Milk),Beverage,Snack;Breakfast,1 cup,150,70,2.0,9.0,3.0,0.0,5,quick-meal;low-cost,True,dairy,Pan-Indian,5
+F057,Boiled Eggs,Protein Dish,Breakfast;Snack;Dinner,2 eggs,100,156,13.0,1.0,11.0,0.0,14,high-protein;quick-meal;low-cost,False,egg,Pan-Indian,12
+F058,Egg Bhurji,Protein Dish,Breakfast;Dinner,2 eggs,150,220,14.0,4.0,16.0,1.0,18,high-protein;quick-meal;jain_unsafe,False,egg,North Indian,10
+F059,Masala Omelette,Protein Dish,Breakfast;Dinner,2 eggs,130,200,13.0,3.0,15.0,0.8,16,high-protein;quick-meal,False,egg,Pan-Indian,10
+F060,Egg Curry,Curry,Lunch;Dinner,2 eggs + gravy,200,260,14.0,8.0,19.0,2.0,22,high-protein;jain_unsafe,False,egg,North Indian,25
+F061,Chicken Curry,Curry,Lunch;Dinner,1 katori,150,240,24.0,6.0,13.0,1.5,60,high-protein;jain_unsafe,False,none,North Indian,30
+F062,Grilled Chicken Breast,Protein Dish,Lunch;Dinner,120 g,120,200,34.0,0.0,6.0,0.0,55,high-protein;low-carb,False,none,Pan-Indian,20
+F063,Chicken Tikka (Pan-Grilled),Protein Dish,Lunch;Dinner;Snack,4 pieces,120,210,28.0,4.0,9.0,1.0,60,high-protein,False,dairy,North Indian,25
+F064,Fish Curry (Rohu),Curry,Lunch;Dinner,1 katori,150,200,22.0,5.0,10.0,1.0,50,high-protein;jain_unsafe,False,fish,South Indian,25
+F065,Grilled Fish,Protein Dish,Lunch;Dinner,1 fillet,120,170,24.0,0.0,8.0,0.0,70,high-protein;low-carb,False,fish,South Indian,20
+F066,Prawn Masala,Curry,Lunch;Dinner,1 katori,150,180,22.0,6.0,7.0,1.0,90,high-protein;jain_unsafe,False,shellfish,South Indian,20
+F067,Mixed Veg Sabzi,Vegetable,Lunch;Dinner,1 katori,150,120,3.5,14,6.0,4.0,12,high-fiber,True,none,Pan-Indian,20
+F068,Bhindi Masala,Vegetable,Lunch;Dinner,1 katori,150,130,3.0,12,8.0,4.5,14,high-fiber,True,none,North Indian,20
+F069,Lauki Sabzi,Vegetable,Lunch;Dinner,1 katori,150,80,2.0,10,3.5,2.5,7,low-cost;light,True,none,North Indian,20
+F070,Palak Sabzi,Vegetable,Lunch;Dinner,1 katori,150,90,4.0,8,5.0,3.5,10,high-fiber;low-cost,True,none,North Indian,20
+F071,Aloo Gobi,Vegetable,Lunch;Dinner,1 katori,150,150,3.5,20,7.0,4.0,11,jain_unsafe,True,none,North Indian,25
+F072,Baingan Bharta,Vegetable,Lunch;Dinner,1 katori,150,120,3.0,12,7.0,5.0,13,jain_unsafe,True,none,North Indian,30
+F073,Cabbage Poriyal,Vegetable,Lunch;Dinner,1 katori,100,90,2.5,9,5.0,3.0,8,low-cost,True,none,South Indian,15
+F074,Beans Poriyal,Vegetable,Lunch;Dinner,1 katori,100,85,3.0,9,4.0,3.5,10,high-fiber,True,none,South Indian,15
+F075,Tomato Rasam,Curry,Lunch;Dinner,1 katori,150,50,1.5,8,1.5,1.5,6,light;low-cost,True,none,South Indian,20
+F076,Vegetable Khichdi,Grain,Lunch;Dinner,1 bowl,250,300,11.0,50,6.0,6.0,14,one-pot;comfort,True,none,Pan-Indian,25
+F077,Vegetable Pulao,Grain,Lunch;Dinner,1 plate,250,320,7.0,55,8.0,4.0,18,one-pot,True,none,North Indian,30
+F078,Cucumber Tomato Salad,Salad,Lunch;Dinner,1 bowl,100,30,1.0,6,0.2,1.5,8,salad;raw;quick-meal;low-cost,True,none,Pan-Indian,5
+F079,Kachumber Salad,Salad,Lunch;Dinner,1 bowl,150,45,1.5,9,0.3,2.5,10,salad;raw;quick-meal;jain_unsafe,True,none,North Indian,5
+F080,Green Salad with Lemon,Salad,Lunch;Dinner,1 bowl,150,35,1.5,7,0.3,2.8,10,salad;raw;quick-meal,True,none,Pan-Indian,5
+F081,Coconut Chutney,Condiment,Breakfast,2 tbsp,40,70,1.0,3,6.0,1.5,6,quick-meal,True,none,South Indian,5
+F082,Banana,Fruit,Breakfast;Snack,1 medium,100,90,1.0,23,0.3,2.6,7,fruit;quick-meal,True,none,Pan-Indian,0
+F083,Apple,Fruit,Snack;Breakfast,1 medium,150,78,0.4,20,0.3,3.6,25,fruit;quick-meal,True,none,Pan-Indian,0
+F084,Papaya,Fruit,Snack;Breakfast,1 bowl,150,65,1.0,16,0.3,2.5,12,fruit;quick-meal,True,none,Pan-Indian,2
+F085,Guava,Fruit,Snack,1 medium,100,68,2.6,14,1.0,5.4,8,fruit;high-fiber;quick-meal;low-cost,True,none,North Indian,0
+F086,Almonds,Nuts & Seeds,Snack;Breakfast,8-10 pieces,20,116,4.2,4.3,10.0,2.5,16,quick-meal,True,tree_nuts,Pan-Indian,0
+F087,Walnuts,Nuts & Seeds,Snack;Breakfast,4 halves,15,98,2.3,2.0,9.8,1.0,14,quick-meal,True,tree_nuts,Pan-Indian,0
+F088,Pumpkin Seeds,Nuts & Seeds,Snack,1 tbsp,15,82,4.5,2.0,7.0,1.5,12,quick-meal;seeds,True,none,Pan-Indian,0
+F089,Flax Seeds,Nuts & Seeds,Breakfast;Snack,1 tbsp,10,53,1.8,2.9,4.2,2.7,4,seeds;high-fiber;quick-meal,True,none,Pan-Indian,0
+F090,Makhana (Roasted),Snack Dish,Snack,1 bowl,25,90,3.0,18,0.3,0.6,15,light;low-fat;quick-meal,True,none,North Indian,5
+F091,Masala Murmura,Snack Dish,Snack,1 bowl,60,170,4.0,32,3.5,2.5,10,quick-meal;low-cost;jain_unsafe,True,none,Pan-Indian,5
+F092,Dhokla,Snack Dish,Snack;Breakfast,3 pieces,100,160,7.0,24,4.0,2.5,12,steamed,True,none,Pan-Indian,25
+F093,Clear Vegetable Soup,Snack Dish,Snack;Dinner,1 bowl,250,80,3.0,12,2.0,3.0,10,light;quick-meal,True,none,Pan-Indian,15
+F094,Sweet Corn Chaat,Snack Dish,Snack,1 bowl,100,120,4.0,22,2.0,3.0,12,quick-meal,True,none,Pan-Indian,10
+F095,Roasted Soya Nuts,Snack Dish,Snack,1 handful,30,120,11.0,9,4.0,3.0,10,high-protein;quick-meal,True,soy,Pan-Indian,1
+F096,Ghee (1 tsp),Fat,Lunch;Dinner;Breakfast,1 tsp,5,45,0.0,0,5.0,0.0,3,quick-meal,True,dairy,North Indian,0
+F097,Methi Thepla,Breakfast Dish,Breakfast;Dinner,2 thepla,80,210,6.0,30,7.0,4.0,10,high-fiber,True,gluten,Pan-Indian,20
+F098,Sprouted Moong Usal,Legume,Lunch;Dinner;Snack,1 katori,120,140,10.0,20,2.5,6.0,12,high-protein;high-fiber,True,none,Pan-Indian,20
+F099,Curd with Flax & Fruit,Breakfast Dish,Breakfast;Snack,1 bowl,150,140,6.0,18,5.0,3.0,20,probiotic;quick-meal,True,dairy,Pan-Indian,3
+F100,Egg White Omelette,Protein Dish,Breakfast;Dinner,4 whites,130,70,14.0,1.0,0.5,0.0,14,high-protein;low-fat;quick-meal,False,egg,Pan-Indian,10

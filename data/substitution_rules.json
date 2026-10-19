@@ -1,0 +1,728 @@
+{
+ "version": 1,
+ "notes": "kind: swap = equivalent food (dislikes and fallback), cost = high-cost -> lower-cost, time = high-prep -> quicker, protein = low-protein -> higher-protein. A rule applies to a food if its name is in 'names' or contains any 'keywords' (lowercase substring). Alternatives are tried in order; the Adaptation Agent still filters them by diet, allergens, cuisine, cooking time and the meal slot.",
+ "rules": [
+  {
+   "id": "R001",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "paneer"
+   ],
+   "alternatives": [
+    "Soya Chunks Curry",
+    "Tofu Bhurji",
+    "Chana Dal",
+    "Roasted Soya Nuts",
+    "Roasted Chana",
+    "Sprouts Salad (Moong)"
+   ],
+   "reason": "soya chunks, tofu and chana are dairy-free, lower-cost sources of similar protein"
+  },
+  {
+   "id": "R002",
+   "kind": "swap",
+   "names": [
+    "Plain Curd (Dahi)",
+    "Low-Fat Curd",
+    "Cucumber Raita"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Soy Yogurt",
+    "Buttermilk (Chaas)"
+   ],
+   "reason": "soy yogurt is a dairy-free swap with a similar protein content"
+  },
+  {
+   "id": "R003",
+   "kind": "swap",
+   "names": [
+    "Curd Rice",
+    "Curd with Flax & Fruit"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Vegetable Khichdi",
+    "Foxtail Millet (Cooked)"
+   ],
+   "reason": "curd rice can be replaced by another light one-pot grain meal"
+  },
+  {
+   "id": "R004",
+   "kind": "swap",
+   "names": [
+    "Milk (Toned)",
+    "Masala Chai (with Milk)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Soy Milk",
+    "Buttermilk (Chaas)"
+   ],
+   "reason": "soy milk and buttermilk are dairy-free or lighter drinks with similar protein"
+  },
+  {
+   "id": "R005",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "rice"
+   ],
+   "alternatives": [
+    "Foxtail Millet (Cooked)",
+    "Brown Rice (Cooked)",
+    "Ragi Roti",
+    "Jowar Roti"
+   ],
+   "reason": "millets add fiber and minerals at similar calories"
+  },
+  {
+   "id": "R006",
+   "kind": "swap",
+   "names": [
+    "Roti (Whole Wheat)",
+    "Phulka (Chapati)",
+    "Mixed Veg Paratha",
+    "Aloo Paratha",
+    "Methi Thepla"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Ragi Roti",
+    "Jowar Roti",
+    "Bajra Roti"
+   ],
+   "reason": "millet rotis are gluten-free and higher in fiber"
+  },
+  {
+   "id": "R007",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "soya"
+   ],
+   "alternatives": [
+    "Chana Dal",
+    "Rajma Masala",
+    "Kala Chana Curry",
+    "Paneer Bhurji",
+    "Egg Curry"
+   ],
+   "reason": "legumes give similar protein without soy"
+  },
+  {
+   "id": "R008",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "tofu"
+   ],
+   "alternatives": [
+    "Paneer Bhurji",
+    "Soya Chunks Curry",
+    "Egg Bhurji",
+    "Besan Chilla"
+   ],
+   "reason": "tofu is replaced by other high-protein dishes"
+  },
+  {
+   "id": "R009",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "chana",
+    "chole"
+   ],
+   "alternatives": [
+    "Rajma Masala",
+    "Lobia Curry",
+    "Masoor Dal Curry",
+    "Sabut Moong Curry"
+   ],
+   "reason": "other legumes provide similar protein and fiber"
+  },
+  {
+   "id": "R010",
+   "kind": "swap",
+   "names": [
+    "Rajma Masala",
+    "Lobia Curry"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Kala Chana Curry",
+    "Masoor Dal Curry",
+    "Chole Masala"
+   ],
+   "reason": "other legumes provide similar protein and fiber"
+  },
+  {
+   "id": "R011",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "dal"
+   ],
+   "alternatives": [
+    "Sprouted Moong Usal",
+    "Rajma Masala",
+    "Lobia Curry",
+    "Soya Chunks Curry",
+    "Sabut Moong Curry"
+   ],
+   "reason": "another dal, usal or soya dish gives similar protein"
+  },
+  {
+   "id": "R012",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "egg",
+    "omelette"
+   ],
+   "alternatives": [
+    "Moong Dal Chilla",
+    "Besan Chilla",
+    "Tofu Bhurji",
+    "Paneer Bhurji",
+    "Sprouts Salad (Moong)"
+   ],
+   "reason": "chilla, tofu and paneer bhurji give egg-free protein"
+  },
+  {
+   "id": "R013",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "chicken"
+   ],
+   "alternatives": [
+    "Egg Curry",
+    "Soya Chunks Curry",
+    "Grilled Fish",
+    "Tofu Bhurji"
+   ],
+   "reason": "eggs, soya and fish are alternative protein mains"
+  },
+  {
+   "id": "R014",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "fish"
+   ],
+   "alternatives": [
+    "Egg Curry",
+    "Chicken Curry",
+    "Soya Chunks Curry"
+   ],
+   "reason": "eggs, chicken and soya are alternative protein mains"
+  },
+  {
+   "id": "R015",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "prawn"
+   ],
+   "alternatives": [
+    "Fish Curry (Rohu)",
+    "Egg Curry"
+   ],
+   "reason": "fish and eggs are alternative protein mains"
+  },
+  {
+   "id": "R016",
+   "kind": "swap",
+   "names": [
+    "Poha with Peanuts"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Upma (Rava)",
+    "Besan Chilla",
+    "Vegetable Daliya"
+   ],
+   "reason": "another light breakfast with similar calories"
+  },
+  {
+   "id": "R017",
+   "kind": "swap",
+   "names": [
+    "Upma (Rava)",
+    "Oats Porridge (Water)",
+    "Vegetable Daliya",
+    "Ragi Porridge"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Poha with Peanuts",
+    "Idli",
+    "Besan Chilla"
+   ],
+   "reason": "another light breakfast with similar calories"
+  },
+  {
+   "id": "R018",
+   "kind": "swap",
+   "names": [
+    "Idli",
+    "Plain Dosa",
+    "Masala Dosa"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Upma (Rava)",
+    "Besan Chilla",
+    "Moong Dal Chilla"
+   ],
+   "reason": "chilla and upma are comparable breakfasts"
+  },
+  {
+   "id": "R019",
+   "kind": "swap",
+   "names": [
+    "Besan Chilla",
+    "Moong Dal Chilla",
+    "Mixed Veg Paratha",
+    "Aloo Paratha",
+    "Methi Thepla"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Idli",
+    "Upma (Rava)",
+    "Vegetable Daliya"
+   ],
+   "reason": "idli, upma and daliya are comparable breakfasts"
+  },
+  {
+   "id": "R020",
+   "kind": "swap",
+   "names": [
+    "Banana"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Apple",
+    "Papaya",
+    "Guava",
+    "Banana"
+   ],
+   "reason": "another seasonal fruit gives similar calories and fiber"
+  },
+  {
+   "id": "R021",
+   "kind": "swap",
+   "names": [
+    "Apple",
+    "Papaya",
+    "Guava"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Banana",
+    "Papaya",
+    "Guava",
+    "Apple"
+   ],
+   "reason": "another seasonal fruit gives similar calories and fiber"
+  },
+  {
+   "id": "R022",
+   "kind": "swap",
+   "names": [],
+   "keywords": [
+    "sabzi",
+    "poriyal",
+    "bhindi",
+    "gobi",
+    "bharta"
+   ],
+   "alternatives": [
+    "Lauki Sabzi",
+    "Palak Sabzi",
+    "Bhindi Masala",
+    "Cabbage Poriyal",
+    "Beans Poriyal",
+    "Mixed Veg Sabzi"
+   ],
+   "reason": "another vegetable side gives similar fiber"
+  },
+  {
+   "id": "R023",
+   "kind": "cost",
+   "names": [],
+   "keywords": [
+    "paneer"
+   ],
+   "alternatives": [
+    "Soya Chunks Curry",
+    "Tofu Bhurji",
+    "Chana Dal",
+    "Rajma Masala",
+    "Masoor Dal Curry",
+    "Roasted Soya Nuts",
+    "Roasted Chana"
+   ],
+   "reason": "soya, chana and dal deliver protein at a fraction of paneer's cost"
+  },
+  {
+   "id": "R024",
+   "kind": "cost",
+   "names": [
+    "Almonds",
+    "Walnuts"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Roasted Chana",
+    "Pumpkin Seeds",
+    "Flax Seeds",
+    "Roasted Soya Nuts"
+   ],
+   "reason": "roasted chana and seeds are much cheaper snacks than nuts"
+  },
+  {
+   "id": "R025",
+   "kind": "cost",
+   "names": [
+    "Apple"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Banana",
+    "Guava",
+    "Papaya"
+   ],
+   "reason": "banana, guava and papaya are cheaper than apples"
+  },
+  {
+   "id": "R026",
+   "kind": "cost",
+   "names": [
+    "Milk (Toned)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Buttermilk (Chaas)",
+    "Plain Curd (Dahi)"
+   ],
+   "reason": "buttermilk and curd are cheaper than milk"
+  },
+  {
+   "id": "R027",
+   "kind": "cost",
+   "names": [],
+   "keywords": [
+    "chicken",
+    "fish",
+    "prawn"
+   ],
+   "alternatives": [
+    "Egg Curry",
+    "Soya Chunks Curry",
+    "Boiled Eggs"
+   ],
+   "reason": "eggs and soya are much cheaper protein than meat or seafood"
+  },
+  {
+   "id": "R028",
+   "kind": "cost",
+   "names": [],
+   "keywords": [
+    "tofu"
+   ],
+   "alternatives": [
+    "Soya Chunks Curry",
+    "Chana Dal",
+    "Masoor Dal Curry"
+   ],
+   "reason": "soya chunks and dal are cheaper than tofu"
+  },
+  {
+   "id": "R029",
+   "kind": "cost",
+   "names": [
+    "Dal Makhani (Light)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Masoor Dal Curry",
+    "Toor Dal Tadka"
+   ],
+   "reason": "a simple dal costs less than a cream-based dal"
+  },
+  {
+   "id": "R030",
+   "kind": "cost",
+   "names": [
+    "Low-Fat Curd",
+    "Curd with Flax & Fruit"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Plain Curd (Dahi)"
+   ],
+   "reason": "plain curd is cheaper than low-fat or flavoured curd"
+  },
+  {
+   "id": "R031",
+   "kind": "cost",
+   "names": [
+    "Vegetable Pulao",
+    "Soya Chunk Pulao"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Vegetable Khichdi"
+   ],
+   "reason": "khichdi uses fewer ingredients than a pulao"
+  },
+  {
+   "id": "R032",
+   "kind": "cost",
+   "names": [
+    "Masala Dosa",
+    "Veg Sandwich (Whole Wheat)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Plain Dosa",
+    "Whole Wheat Bread"
+   ],
+   "reason": "a plain dosa or sandwich uses cheaper ingredients"
+  },
+  {
+   "id": "R033",
+   "kind": "time",
+   "names": [
+    "Chole Masala",
+    "Rajma Masala",
+    "Chana Dal",
+    "Kala Chana Curry",
+    "Dal Makhani (Light)",
+    "Lobia Curry",
+    "Sabut Moong Curry"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Yellow Moong Dal",
+    "Masoor Dal Curry",
+    "Sprouts Salad (Moong)",
+    "Sprouted Moong Usal"
+   ],
+   "reason": "yellow moong and masoor cook faster and need no soaking"
+  },
+  {
+   "id": "R034",
+   "kind": "time",
+   "names": [
+    "Brown Rice (Cooked)",
+    "White Rice (Cooked)",
+    "Jeera Rice",
+    "Foxtail Millet (Cooked)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Roti (Whole Wheat)",
+    "Phulka (Chapati)",
+    "Vegetable Khichdi"
+   ],
+   "reason": "rotis take about 5 minutes compared with 25 for rice or millets"
+  },
+  {
+   "id": "R035",
+   "kind": "time",
+   "names": [
+    "Masala Dosa",
+    "Plain Dosa",
+    "Idli",
+    "Dhokla",
+    "Upma (Rava)",
+    "Vegetable Daliya",
+    "Ragi Porridge"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Besan Chilla",
+    "Poha with Peanuts",
+    "Oats Porridge (Water)",
+    "Whole Wheat Bread"
+   ],
+   "reason": "chilla, poha and oats are ready in 8-15 minutes"
+  },
+  {
+   "id": "R036",
+   "kind": "time",
+   "names": [
+    "Vegetable Pulao",
+    "Soya Chunk Pulao"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Vegetable Khichdi"
+   ],
+   "reason": "khichdi is a quicker one-pot alternative"
+  },
+  {
+   "id": "R037",
+   "kind": "time",
+   "names": [
+    "Chicken Curry",
+    "Egg Curry",
+    "Fish Curry (Rohu)",
+    "Prawn Masala"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Egg Bhurji",
+    "Boiled Eggs",
+    "Grilled Chicken Breast",
+    "Masala Omelette"
+   ],
+   "reason": "egg dishes and grilled chicken are ready in 10-20 minutes"
+  },
+  {
+   "id": "R038",
+   "kind": "time",
+   "names": [
+    "Palak Paneer",
+    "Matar Paneer",
+    "Paneer Tikka (Pan-Grilled)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Paneer Bhurji",
+    "Tofu Bhurji"
+   ],
+   "reason": "bhurji is ready in 15 minutes compared with 25 for a curry"
+  },
+  {
+   "id": "R039",
+   "kind": "time",
+   "names": [
+    "Mixed Veg Paratha",
+    "Aloo Paratha",
+    "Methi Thepla"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Whole Wheat Bread",
+    "Besan Chilla"
+   ],
+   "reason": "parathas and thepla take longer than toast or chilla"
+  },
+  {
+   "id": "R040",
+   "kind": "time",
+   "names": [
+    "Soya Chunks Curry"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Tofu Bhurji",
+    "Egg Bhurji"
+   ],
+   "reason": "tofu bhurji is a quicker high-protein dish"
+  },
+  {
+   "id": "R041",
+   "kind": "protein",
+   "names": [
+    "Poha with Peanuts",
+    "Upma (Rava)",
+    "Plain Dosa",
+    "Masala Dosa",
+    "Idli",
+    "Mixed Veg Paratha",
+    "Aloo Paratha",
+    "Oats Porridge (Water)",
+    "Vegetable Daliya",
+    "Ragi Porridge",
+    "Methi Thepla",
+    "Veg Sandwich (Whole Wheat)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Moong Dal Chilla",
+    "Besan Chilla",
+    "Masala Omelette",
+    "Paneer Bhurji",
+    "Tofu Bhurji"
+   ],
+   "reason": "chilla and bhurji give two to three times the protein of a starch-based breakfast"
+  },
+  {
+   "id": "R042",
+   "kind": "protein",
+   "names": [
+    "Banana",
+    "Apple",
+    "Papaya",
+    "Guava",
+    "Masala Murmura",
+    "Sweet Corn Chaat",
+    "Makhana (Roasted)",
+    "Dhokla"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Roasted Chana",
+    "Roasted Soya Nuts",
+    "Sprouts Salad (Moong)",
+    "Paneer Cubes (Raw)",
+    "Boiled Eggs"
+   ],
+   "reason": "roasted chana, soya nuts and sprouts are far more protein-dense snacks"
+  },
+  {
+   "id": "R043",
+   "kind": "protein",
+   "names": [
+    "Cucumber Raita",
+    "Plain Curd (Dahi)"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Low-Fat Curd",
+    "Curd with Flax & Fruit"
+   ],
+   "reason": "low-fat curd has more protein per calorie"
+  },
+  {
+   "id": "R044",
+   "kind": "protein",
+   "names": [
+    "Yellow Moong Dal",
+    "Toor Dal Tadka",
+    "Palak Dal",
+    "Masoor Dal Curry",
+    "Sabut Moong Curry"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Soya Chunks Curry",
+    "Chana Dal",
+    "Rajma Masala"
+   ],
+   "reason": "soya chunks and chana pack more protein per serving than most dals"
+  },
+  {
+   "id": "R045",
+   "kind": "protein",
+   "names": [
+    "Vegetable Pulao",
+    "Jeera Rice",
+    "Curd Rice"
+   ],
+   "keywords": [],
+   "alternatives": [
+    "Soya Chunk Pulao",
+    "Vegetable Khichdi"
+   ],
+   "reason": "pulao and khichdi with soya or dal give more protein than plain grains"
+  }
+ ]
+}

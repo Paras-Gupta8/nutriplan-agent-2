@@ -1,0 +1,1966 @@
+{
+ "version": 1,
+ "notes": "diet = least restrictive diet the template suits (vegetarian < eggetarian < non-vegetarian). Foods are referenced by food_name from foods.csv. role 'main' dishes are counted for the max-2-repeats-per-week rule; fixed items are not portion-scaled.",
+ "templates": [
+  {
+   "id": "VEG-N1",
+   "name": "Chilla, dal & soya day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Besan Chilla",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Masoor Dal Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Lauki Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Guava",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Phulka (Chapati)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Soya Chunks Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Low-Fat Curd",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-N2",
+   "name": "Moong chilla, rajma & paneer day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Moong Dal Chilla",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Milk (Toned)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Rajma Masala",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Apple",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Phulka (Chapati)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Palak Paneer",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Yellow Moong Dal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-N3",
+   "name": "Daliya, chana dal & kala chana day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Vegetable Daliya",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Chana Dal",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Bhindi Masala",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Soya Nuts",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Banana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Kala Chana Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Palak Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Buttermilk (Chaas)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-N4",
+   "name": "Paratha, khichdi & paneer bhurji day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Mixed Veg Paratha",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Vegetable Khichdi",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Makhana (Roasted)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Papaya",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Paneer Bhurji",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Toor Dal Tadka",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-N5",
+   "name": "Poha, lobia & soya day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Poha with Peanuts",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Lobia Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Bhindi Masala",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Peanuts",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Apple",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Phulka (Chapati)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Soya Chunks Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-N6",
+   "name": "Chilla, chole & palak dal day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Besan Chilla",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Banana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Jowar Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Chole Masala",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Buttermilk (Chaas)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Bajra Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Palak Dal",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Lauki Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tofu Bhurji",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-N7",
+   "name": "Thepla, sabut moong & matar paneer day",
+   "diet": "vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Methi Thepla",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sabut Moong Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Palak Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Paneer Cubes (Raw)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Apple",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Matar Paneer",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Yellow Moong Dal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-S1",
+   "name": "Idli, sambar & soya day",
+   "diet": "vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Idli",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Coconut Chutney",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Banana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Ragi Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Soya Chunks Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-S2",
+   "name": "Dosa, moong dal & usal day",
+   "diet": "vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Plain Dosa",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Coconut Chutney",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Foxtail Millet (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Yellow Moong Dal",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tomato Rasam",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Papaya",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Ragi Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sprouted Moong Usal",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-S3",
+   "name": "Ragi, sambar & tofu day",
+   "diet": "vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Ragi Porridge",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Tofu Bhurji",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Makhana (Roasted)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Guava",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Vegetable Khichdi",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Tomato Rasam",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-S4",
+   "name": "Idli, sabut moong & tofu day",
+   "diet": "vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Idli",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Coconut Chutney",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     },
+     {
+      "food": "Milk (Toned)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sabut Moong Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tomato Rasam",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Sprouted Moong Usal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Banana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Ragi Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tofu Bhurji",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-S5",
+   "name": "Upma, soya & curd rice day",
+   "diet": "vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Upma (Rava)",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Foxtail Millet (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Soya Chunks Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Guava",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Curd Rice",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Yellow Moong Dal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-P1",
+   "name": "Oats, sabut moong & tofu day",
+   "diet": "vegetarian",
+   "cuisine": "Pan-Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Oats Porridge (Water)",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Flax Seeds",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     },
+     {
+      "food": "Banana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sabut Moong Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Soya Nuts",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Apple",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tofu Bhurji",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Yellow Moong Dal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "VEG-P2",
+   "name": "Sandwich, khichdi & soya day",
+   "diet": "vegetarian",
+   "cuisine": "Pan-Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Veg Sandwich (Whole Wheat)",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Milk (Toned)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Vegetable Khichdi",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Sweet Corn Chaat",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Soya Chunks Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Low-Fat Curd",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "EGG-N1",
+   "name": "Omelette & egg curry day",
+   "diet": "eggetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Masala Omelette",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Whole Wheat Bread",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Egg Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Apple",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Phulka (Chapati)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Toor Dal Tadka",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Palak Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "EGG-N2",
+   "name": "Egg bhurji & dal day",
+   "diet": "eggetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Egg Bhurji",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Whole Wheat Bread",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Masoor Dal Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Bhindi Masala",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Boiled Eggs",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Guava",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Egg Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Palak Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "EGG-P1",
+   "name": "Egg white omelette & chana day",
+   "diet": "eggetarian",
+   "cuisine": "Pan-Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Egg White Omelette",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Oats Porridge (Water)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Kala Chana Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Banana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Boiled Eggs",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sabut Moong Curry",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "EGG-S1",
+   "name": "Idli, egg curry & rice day",
+   "diet": "eggetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Idli",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Boiled Eggs",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Egg Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tomato Rasam",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Papaya",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Ragi Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Sprouted Moong Usal",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "NV-N1",
+   "name": "Omelette, chicken curry & grilled chicken day",
+   "diet": "non-vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Masala Omelette",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Whole Wheat Bread",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Chicken Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Mixed Veg Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Roasted Chana",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Apple",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Phulka (Chapati)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Grilled Chicken Breast",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Yellow Moong Dal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "NV-N2",
+   "name": "Chicken tikka & egg curry day",
+   "diet": "non-vegetarian",
+   "cuisine": "North Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Egg Bhurji",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Whole Wheat Bread",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Chicken Tikka (Pan-Grilled)",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Masoor Dal Curry",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Raita",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Boiled Eggs",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Guava",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Roti (Whole Wheat)",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Egg Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Palak Sabzi",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Green Salad with Lemon",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "NV-S1",
+   "name": "Idli, fish curry & grilled fish day",
+   "diet": "non-vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Idli",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Boiled Eggs",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Fish Curry (Rohu)",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Tomato Rasam",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Sprouts Salad (Moong)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Guava",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Ragi Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Grilled Fish",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "NV-S2",
+   "name": "Dosa, prawn masala & chicken day",
+   "diet": "non-vegetarian",
+   "cuisine": "South Indian",
+   "slots": {
+    "Breakfast": [
+     {
+      "food": "Plain Dosa",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Sambar",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Egg White Omelette",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Lunch": [
+     {
+      "food": "Brown Rice (Cooked)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Prawn Masala",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Cabbage Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Plain Curd (Dahi)",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Snack": [
+     {
+      "food": "Boiled Eggs",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Papaya",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     }
+    ],
+    "Dinner": [
+     {
+      "food": "Jowar Roti",
+      "servings": 2.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Chicken Curry",
+      "servings": 1.0,
+      "role": "main",
+      "fixed": false
+     },
+     {
+      "food": "Beans Poriyal",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": false
+     },
+     {
+      "food": "Cucumber Tomato Salad",
+      "servings": 1.0,
+      "role": "side",
+      "fixed": true
+     }
+    ]
+   }
+  }
+ ]
+}
