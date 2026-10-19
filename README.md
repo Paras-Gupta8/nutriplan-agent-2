@@ -16,9 +16,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Press **🚀 Run the demo scenario end-to-end** on the Overview page: a 22-year-old vegetarian student, fat loss, ₹1,500/week, peanut
-allergy, North Indian, meals ≤ 30 min. Everything (targets, plan, validation, shopping list, log) appears in about a second.
-
+Press 🚀 **Run the Demo Scenario End-to-End** on the Overview page to test the complete workflow using a sample profile: a 22-year-old vegetarian student aiming for fat loss, with a weekly budget of ₹1,500, a peanut allergy, a North Indian food preference, and a maximum meal preparation time of 30 minutes. Within approximately one second, the app generates personalized nutrition targets, a 7-day meal plan, validation results, a shopping list, and a log of the process.
 Tests: `pytest -q` (204 tests, ~20 s).
 
 ## The agents
